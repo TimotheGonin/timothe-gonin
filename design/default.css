@@ -18,7 +18,7 @@ body {
 #main-background {
     margin: 0;
     padding: 0;
-    height: 60vh;
+    height: 100vh;
     width: 100%;
     background-image: url("/pictures/gradienta-bKESVqfxass-unsplash.jpg");
     background-size: 65%;
@@ -43,18 +43,37 @@ h2 {
     ;
 }
 
-
-/*#header_box_img {
-    position: absolute;
-    z-index: 1;
-    right: 0;
-    top: 0;
-    padding: 0;
-    margin: 0;
-    float: right;
+#status-box {
+    margin-top: 14%;
 }
 
-header img {
-    width: 65%;
-    float: right;
-} */
+#construction-status {
+    text-align: center;
+    padding-bottom: 3%;
+    font-weight: normal;
+    font-style: italic;
+}
+
+img {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+#graphist-link {
+    margin: 0 auto;
+    font-size: .5em;
+    text-align: center;
+    width: 15%;
+    color: #0081ed;
+    opacity: .5;
+}
+
+#graphist-link:hover {
+    opacity: .8;
+}
+
+.graphist-links {
+    color: #00c6d6;
+    text-decoration: none;
+}
