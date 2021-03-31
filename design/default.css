@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,300&display=swap');
 html,
 body {
+    height: 100%;
     margin: 0;
     padding: 0;
     background-color: #000000;
@@ -15,7 +16,14 @@ body {
     font-family: 'Source Code Pro', monospace, Arial, Helvetica, sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 #main-background {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -62,7 +70,7 @@ img {
 
 #graphist-link {
     margin: 0 auto;
-    font-size: .5em;
+    font-size: .7em;
     text-align: center;
     width: 15%;
     color: #0081ed;
@@ -76,4 +84,15 @@ img {
 .graphist-links {
     color: #00c6d6;
     text-decoration: none;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+}
+
+#copyright {
+    font-size: .9em;
+    font-weight: normal;
+    color: grey;
 }
