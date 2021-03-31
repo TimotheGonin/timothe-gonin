@@ -1,0 +1,98 @@
+/* RESET */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,300&display=swap');
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+    vertical-align: baseline;
+    font-family: 'Source Code Pro', monospace, Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-background {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url("/pictures/gradienta-bKESVqfxass-unsplash.jpg");
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#header__txt {
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+h1 {
+    margin-left: -8%;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    color: #01FFE7;
+    ;
+}
+
+#status-box {
+    margin-top: 14%;
+}
+
+#construction-status {
+    text-align: center;
+    padding-bottom: 3%;
+    font-weight: normal;
+    font-style: italic;
+}
+
+img {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+#graphist-link {
+    margin: 0 auto;
+    font-size: .7em;
+    text-align: center;
+    width: 15%;
+    color: #0081ed;
+    opacity: .5;
+}
+
+#graphist-link:hover {
+    opacity: .8;
+}
+
+.graphist-links {
+    color: #00c6d6;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+}
+
+#copyright {
+    font-size: .9em;
+    font-weight: normal;
+    color: grey;
+}
