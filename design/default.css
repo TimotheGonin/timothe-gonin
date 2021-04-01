@@ -22,8 +22,9 @@ body {
 }
 
 #main-background {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 70% 10%;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -32,6 +33,18 @@ body {
     background-size: 65%;
     background-repeat: no-repeat;
     background-position: top right;
+}
+
+header {
+    grid-area: 1 / 1 / 2/ 4;
+}
+
+main {
+    grid-area: 2 / 2 / 2 / 3;
+}
+
+footer {
+    grid-area: 3 / 1 / 5 / 6;
 }
 
 #header__txt {
@@ -52,7 +65,7 @@ h2 {
 }
 
 #status-box {
-    margin-top: 14%;
+    padding-top: 20%;
 }
 
 #construction-status {
@@ -107,7 +120,7 @@ img {
 }
 
 footer {
-    margin-top: auto;
+    /* margin-top: auto; */
     text-align: center;
 }
 
