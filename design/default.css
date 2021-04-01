@@ -86,6 +86,26 @@ img {
     text-decoration: none;
 }
 
+
+/*SECTION MY LINKS*/
+
+#mylinks-box {
+    width: 15%;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mylinks:hover {
+    opacity: .9;
+}
+
+.mylinks {
+    max-width: 50px;
+    opacity: .5;
+}
+
 footer {
     margin-top: auto;
     text-align: center;
